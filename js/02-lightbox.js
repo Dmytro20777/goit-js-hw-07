@@ -29,11 +29,6 @@ const lightbox = new SimpleLightbox('.gallery a', {
 });
 
 
-document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape') {
-    lightbox.close();
-  }
-});
 
 
 
